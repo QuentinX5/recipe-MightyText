@@ -1,0 +1,23 @@
+{
+  "name": "MightyText",
+  "version": "1.0.0",
+  "description": "Send SMS & MMS text messages from your PC, Mac, or Tablet without touching your Android phone.",
+  "main": "index.js",
+  "author": "Quentin Mitten <quentinmitten@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "http://www.mightytext.net/app",
+    "serviceName": "MightyText",
+    "message": "Send SMS & MMS text messages from your PC, Mac, or Tablet without touching your Android phone.",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
